@@ -1,8 +1,8 @@
-# REST API Rentability Carteira Global 🌎
+# REST API Rentability 
 
 ## About 
 
-This REST API+Crawler project was made as a back-end challenge for <a href = "https://www.carteiraglobal.com/">Carteira Global</a>. The API was centered around getting a response with several parameterers containg the rentability of a funds using data from  <a href = "http://dados.cvm.gov.br/">Portal Dados Abertos CVM</a>, latter stored in a AWS Postresql database. The database was populated using a crawler that scrapped the data, processed it and later load it to the and aws database.
+This is a REST API+Crawler project. The API was centered around getting a response with several parameterers containg the rentability of a funds using data from  <a href = "http://dados.cvm.gov.br/">Portal Dados Abertos CVM</a>, latter stored in a AWS Postresql database. The database was populated using a crawler that scrapped the data, processed it and later load it to the and aws database.
 
 ### Stack 
 
