@@ -2,11 +2,11 @@
 
 ## About 
 
-This is a REST API+Crawler project. The API was centered around getting a response with several parameterers containg the rentability of a funds using data from  <a href = "http://dados.cvm.gov.br/">Portal Dados Abertos CVM</a>, latter stored in a AWS Postresql database. The database was populated using a crawler that scrapped the data, processed it and later load it to the and aws database.
+This is a REST API+Crawler project. The API was centered around getting a response with several parameterers containg the rentability of a funds using data from  <a href = "http://dados.cvm.gov.br/">Portal Dados Abertos CVM</a>, latter stored in a Postresql database. The database was populated using a crawler that scrapped the data, processed it and later load it to the database.
 
 ### Stack 
 
-The API was written using Python 3.9 with FastApi as the framework and a AWS Postgresql database. 
+The API was written using Python 3.9 with FastApi as the framework and a Postgresql database. 
 To perform the database operations, the sqlalchemy library was chosen. 
 For the crawler and scrapper, the pandas library was for the processing of the data and io was used to load the data in bulk in a buffered fashion.
 
